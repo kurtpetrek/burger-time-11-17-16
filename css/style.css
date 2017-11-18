@@ -93,3 +93,34 @@
     max-height: 500px;
   }
 } /*Closes media query*/
+
+/*
+TAB CSS
+=================================================
+*/
+
+.tab-menu {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.tab-toggle {
+  background: none;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 5px 5px 0 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.tab-toggle.active {
+  background: black;
+  color: white;
+}
+
+.tab-content img {
+  width: 100%;
+  max-width: 500px;
+  display: none;
+  margin: auto;
+}
